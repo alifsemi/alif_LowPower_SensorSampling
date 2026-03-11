@@ -82,7 +82,7 @@ To begin measuring power you will need to remove the jumper that is pre-installe
 
 2.  This project works with CMSIS 2.0.2 and higher
 
-    - Modify the soc_dma_mapping.h as present in the patch directory.
+    - Modify the soc_dma_map.h - change SPI0_DMA_TX_PERIPH_REQ to 1 in the CMSIS pack folder Device/soc/include.
 
 3.  Install the latest SEGGER J-Link software (optional) [SEGGER J-Link](https://www.segger.com/downloads/jlink)
 
